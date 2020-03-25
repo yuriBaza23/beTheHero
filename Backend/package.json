@@ -1,0 +1,20 @@
+{
+  "name": "be_the_hero",
+  "version": "1.0.0",
+  "description": "ONG's expoem seus gastos usados para ajudar animais. Pessoas podem colaborar no pagamento dos gastos.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "author": "Yuri Baza (OmniStack 11.0)",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.20.13",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
