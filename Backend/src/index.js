@@ -5,7 +5,7 @@ const routes = require('./routes');
 const app = express();
 
 app.use(cors());
-app.use(express.json()); // Converte para JSON os resultados de uma rota
+app.use(express.json()); // Converte para JSON os resultados de uma rota.
 app.use(routes);
 
 /* *
